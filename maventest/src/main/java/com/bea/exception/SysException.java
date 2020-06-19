@@ -5,6 +5,7 @@ package com.bea.exception;
  */
 public class SysException  extends Exception{
     private String msg;
+	private String code;
 
     public SysException(String msg) {
         this.msg = msg;
